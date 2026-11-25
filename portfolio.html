@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Protótipo do portfólio de fotografia e multimédia de Henrique Leite">
+<title>Portfólio | Henrique Leite</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+<div class="container header-content">
+<a class="brand" href="index.html">HENRIQUE LEITE<span>FOTOGRAFIA · MULTIMÉDIA</span>
+</a>
+<button class="menu-button" type="button" aria-label="Abrir menu" aria-expanded="false">MENU</button>
+<nav class="navlinks" aria-label="Navegação principal">
+<a href="index.html">Home</a>
+<a href="sobre-mim.html">Sobre Mim</a>
+<a href="portfolio.html" aria-current="page">Portfólio</a>
+<a href="competencias.html">Competências</a>
+<a href="contactos.html">Contactos</a>
+</nav>
+</div>
+</header>
+<main>
+<section class="page-head container">
+<span class="overline">02 / Portfólio</span>
+<h1>Trabalhos.</h1>
+<p>Quero apresentar fotografias de alguns trabalhos que fui produzindo ao longo do ano.</p>
+</section>
+<section class="container">
+<div class="filters" aria-label="Filtrar trabalhos">
+<button type="button" class="filter active" aria-pressed="true" data-filter="todos">Todos</button>
+<button type="button" class="filter" aria-pressed="false" data-filter="fotografia">Fotografia</button>
+<button type="button" class="filter" aria-pressed="false" data-filter="web">Web</button>
+</div>
+<div class="projects">
+<article class="project-card" data-category="fotografia">
+<button class="view-image" type="button" data-src="assets/paisagem-ilustrativa.svg" data-alt="Exemplo visual para Paisagem 01; substituir por trabalho próprio" aria-label="Ampliar exemplo de Paisagem 01">
+<img src="assets/paisagem-ilustrativa.svg" alt="Exemplo visual para Paisagem 01">
+</button>
+<div class="caption">Fotografia · imagem ilustrativa</div>
+<h3>Paisagem 01</h3>
+</article>
+<article class="project-card" data-category="fotografia">
+<button class="view-image" type="button" data-src="assets/paisagem-02.svg" data-alt="Exemplo visual para Paisagem 02; substituir por trabalho próprio" aria-label="Ampliar exemplo de Paisagem 02">
+<img src="assets/paisagem-02.svg" alt="Exemplo visual para Paisagem 02">
+</button>
+<div class="caption">Fotografia · imagem ilustrativa</div>
+<h3>Paisagem 02</h3>
+</article>
+<article class="project-card" data-category="fotografia">
+<button class="view-image" type="button" data-src="assets/paisagem-03.svg" data-alt="Exemplo visual para Paisagem 03; substituir por trabalho próprio" aria-label="Ampliar exemplo de Paisagem 03">
+<img src="assets/paisagem-03.svg" alt="Exemplo visual para Paisagem 03">
+</button>
+<div class="caption">Fotografia · imagem ilustrativa</div>
+<h3>Paisagem 03</h3>
+</article>
+<article class="project-card" data-category="web">
+<button class="view-image" type="button" data-src="assets/web-01.svg" data-alt="Exemplo visual para Paisagem 04; substituir por trabalho próprio" aria-label="Ampliar exemplo Paisagem 04">
+<img src="assets/paisagem-04.svg" alt="Exemplo visual para Paisagem 04">
+</button>
+<div class="caption">Web · imagem ilustrativa</div>
+<h3>Paisagem 04</h3>
+</article>
+<article class="project-card" data-category="web">
+<button class="view-image" type="button" data-src="assets/web-02.svg" data-alt="Exemplo visual para Paisagem 05; substituir por trabalho próprio" aria-label="Ampliar exemplo de Paisagem 05">
+<img src="assets/paisagem-05.svg" alt="Exemplo visual para Paisagem 05">
+</button>
+<div class="caption">Web · imagem ilustrativa</div>
+<h3>Paisagem 05</h3>
+</article>
+</div>
+<div class="modal" role="dialog" aria-label="Imagem ampliada" aria-hidden="true">
+<button type="button" class="close-modal" aria-label="Fechar imagem">FECHAR ×</button>
+<img src="" alt="">
+<div class="modal-caption">
+</div>
+</div>
+</section>
+</main>
+<footer class="footer">
+<div class="container footer-inner">
+<span>Henrique Leite · Portfólio de Multimédia</span>
+</div>
+</footer>
+<script src="script.js">
+</script>
+</body>
+</html>
